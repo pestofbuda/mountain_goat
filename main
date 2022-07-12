@@ -1,0 +1,307 @@
+import turtle
+turtle.colormode(255)
+
+turtle.speed(10)
+turtle.bgcolor(245, 255, 254)
+
+# Grass
+def grass():
+    turtle.up()
+    turtle.goto(-400, -80)
+    turtle.down()
+    turtle.color(219, 232, 221)
+    turtle.begin_fill()
+    for i in range(2):
+        turtle.forward(800)
+        turtle.right(90)
+        turtle.forward(400)
+        turtle.right(90)
+    turtle.end_fill()
+
+# Sun
+def sun():
+    turtle.up()
+    turtle.goto(-300, 0)
+    turtle.down()
+    turtle.color(249, 249, 187)
+    turtle.begin_fill()
+    turtle.circle(150)
+    turtle.end_fill()
+
+# Left Mountain
+def left_mountain():
+    turtle.up()
+    turtle.goto(-400, -80)
+    turtle.down()
+    turtle.color(239, 239, 239)
+    turtle.begin_fill()
+    for i in range(3):
+        turtle.forward(300)
+        turtle.left(120)
+    turtle.end_fill()
+
+# Right Mountain
+def right_mountain():
+    turtle.up()
+    turtle.goto(100, -80)
+    turtle.down()
+    turtle.color(239, 239, 239)
+    turtle.begin_fill()
+    for i in range(3):
+        turtle.forward(300)
+        turtle.left(120)
+    turtle.end_fill()
+
+# Middle Mountain
+def middle_mountain():
+    turtle.up()
+    turtle.goto(-160, -80)
+    turtle.down()
+    turtle.color(247, 247, 247)
+    turtle.begin_fill()
+    for i in range(3):
+        turtle.forward(400)
+        turtle.left(120)
+    turtle.end_fill()
+
+
+
+
+def shape1():
+    turtle.fillcolor(142,162,182)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(-10**2.3,-10**2.3) 
+    turtle.down()
+    turtle.goto(-10.4**2.3,-8.8**2.3)
+    turtle.goto(-9.2**2.3, -7.9**2.3)
+    turtle.goto(-9.2**2.3, -8**2.3)
+    turtle.goto(-10**2.3, -10**2.3)
+    turtle.end_fill()
+
+
+
+def shape2():
+    turtle.fillcolor(142,162,182)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(-9.2**2.3, -7.9**2.3)
+    turtle.down()
+    turtle.goto(-7.9**2.3, -5**2.3)
+    turtle.goto(-8**2.3, -6.7**2.3)
+    turtle.goto(-9.2**2.3, -8**2.3)
+    turtle.goto(-9.2**2.3, -7.9**2.3)
+    turtle.end_fill()
+
+def shape3():
+    turtle.fillcolor(142,162,182)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(-8**2.3, -6.7**2.3)
+    turtle.down()
+    turtle.goto(-7.9**2.3, -5**2.3)
+    turtle.goto(-6**2.3, -6**2.3)
+    turtle.goto(-8**2.3, -6.7**2.3)
+    turtle.end_fill()
+
+def shape4():
+    turtle.fillcolor(61, 93, 93)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(-7.9**2.3, -5**2.3)
+    turtle.down()
+    turtle.goto(-6**2.3, -6**2.3)
+    turtle.goto(-4**2.3, -4**2.3)
+    turtle.goto(-8**2.3, -2.3**2.3)
+    turtle.goto(-7.9**2.3, -5**2.3)
+    turtle.end_fill()
+
+def shape5():
+    turtle.fillcolor(61, 93, 93)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(-8**2.3, -2.3**2.3)
+    turtle.down()
+    turtle.goto(-7.9**2.3, -3.2**2.3)
+    turtle.goto(-8.7**2.3, -2.7**2.3)
+    turtle.goto(-8**2.3, -2.3**2.3)
+    turtle.end_fill()
+
+def shape6():
+    turtle.fillcolor(139, 162, 118)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(-8**2.3, -2.3**2.3)
+    turtle.down()
+    turtle.goto(-4**2.3, -4**2.3)
+    turtle.goto(-3.5**2.3, -0.8**2.3)
+    turtle.goto(-8**2.3, -2.3**2.3)
+    turtle.end_fill()
+
+def shape7():
+    turtle.fillcolor(139, 162, 118)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(-4**2.3, -4**2.3)
+    turtle.down()
+    turtle.goto(-3.5**2.3, -0.8**2.3)
+    turtle.goto(-2**2.3, -3**2.3)
+    turtle.goto(-4**2.3, -4**2.3)
+    turtle.end_fill()
+
+def shape8():
+    turtle.fillcolor(142,162,182)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(-3.5**2.3, -0.8**2.3)
+    turtle.down()
+    turtle.goto(-2**2.3, -3**2.3)
+    turtle.goto(-0.9**2.3, 1.9**2.3)
+    turtle.goto(-3.5**2.3, -0.8**2.3)
+    turtle.end_fill()
+
+def shape9():
+    turtle.fillcolor(139, 162, 118)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(-2**2.3, -3**2.3)
+    turtle.down()
+    turtle.goto(-0.9**2.3, 1.9**2.3)
+    turtle.goto(2**2.3, -3**2.3)
+    turtle.goto(-2**2.3, -3**2.3)
+    turtle.end_fill()
+
+def shape10():
+    turtle.fillcolor(61, 93, 93)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(2**2.3, -4**2.3)
+    turtle.down()
+    turtle.goto(3**2.3, -4**2.3)
+    turtle.goto(2**2.3, -3**2.3)
+    turtle.goto(2**2.3, -4**2.3)
+    turtle.end_fill()
+
+def shape11():
+    turtle.fillcolor(61, 93, 93)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(2**2.3, -4**2.3) 
+    turtle.down()
+    turtle.goto(3**2.3, -4**2.3)
+    turtle.goto(-2**2.3, -6**2.3)
+    turtle.goto(-2**2.3, -7**2.3)
+    turtle.goto(2**2.3, -4**2.3)
+    turtle.end_fill()
+
+def shape12():
+    turtle.fillcolor(98, 102, 66)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(2**2.3, -3**2.3)
+    turtle.down()
+    turtle.goto(-2.3**2.3, -0.3**2.3)
+    turtle.goto(3**2.3, 1**2.3)
+    turtle.goto(2**2.3, -3**2.3)
+    turtle.end_fill()
+
+def shape13():
+    turtle.fillcolor(98, 102, 66)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(1.9**2.3, 3.5**2.3)
+    turtle.down()
+    turtle.goto(-2.3**2.3, -0.3**2.3)
+    turtle.goto(3**2.3, 1**2.3)
+    turtle.goto(1.9**2.3, 3.5**2.3)
+    turtle.end_fill()
+
+def shape14():
+    turtle.fillcolor(142,162,182)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(4**2.3, 4**2.3)
+    turtle.down()
+    turtle.goto(1.9**2.3, 3.5**2.3)
+    turtle.goto(3**2.3, 1**2.3)
+    turtle.goto(4**2.3, 1**2.3)
+    turtle.goto(4**2.3, 4**2.3)
+    turtle.end_fill()
+
+def shape15():
+    turtle.fillcolor(98, 102, 66)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(4**2.3, 1**2.3)
+    turtle.down()
+    turtle.goto(6**2.3, -4**2.3)
+    turtle.goto(6**2.3, 2**2.3)
+    turtle.goto(4**2.3, 4**2.3)
+    turtle.goto(4**2.3, 1**2.3)
+    turtle.end_fill()
+
+def shape16():
+    turtle.fillcolor(70, 112, 174)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(4**2.3, 4**2.3)
+    turtle.down()
+    turtle.goto(6**2.3, 4**2.3)
+    turtle.goto(6**2.3, 2**2.3)
+    turtle.goto(4**2.3, 4**2.3)
+    turtle.end_fill()
+
+def shape17():
+    turtle.fillcolor(70, 112, 174)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(4**2.3, 4**2.3)
+    turtle.down()
+    turtle.goto(5**2.3, 4**2.3)
+    turtle.goto(4**2.3, 5**2.3)
+    turtle.goto(4**2.3, 4**2.3)
+    turtle.end_fill()
+
+
+def shape18():
+    turtle.fillcolor(70, 112, 174)
+    turtle.begin_fill()
+    turtle.up()
+    turtle.setpos(6**2.3, 4**2.3)
+    turtle.down()
+    turtle.goto(5.9**2.3, 5**2.3)
+    turtle.goto(5.5**2.3, 5.5**2.3)
+    turtle.goto(5**2.3, 6**2.3)
+    turtle.goto(4.6**2.3, 6.2**2.3)
+    turtle.goto(3.2**2.3, 5.8**2.3)
+    turtle.goto(2**2.3, 4.4**2.3)
+    turtle.goto(4**2.3, 5.5**2.3)
+    turtle.goto(4.9**2.3, 5**2.3)
+    turtle.goto(5**2.3, 4**2.3)
+    turtle.goto(6**2.3, 4**2.3)
+    turtle.end_fill()
+
+grass()
+sun()
+left_mountain()
+right_mountain()
+middle_mountain()
+shape1()
+shape2()
+shape3()
+shape4()
+shape5()
+shape6()
+shape7()
+shape8()
+shape9()
+shape10()
+shape11()
+shape12()
+shape13()
+shape14()
+shape15()
+shape16()
+shape17()
+shape18()
+
